@@ -23,11 +23,30 @@ print(courses)
 print('---')
 
 # convert courses2 list into a string with "--" between the elements
-courses2_str = '--'.join(courses2)
+courses2_str = '='.join(courses2)
 print(courses2_str)
+print() # prints a new line
+
+# convert string to a list based on a split value
+list1 = courses2_str.split('=')
+print(list1)
 
 print('---')
 
 # enumerate provides index and element of courses2 list
 for ind, course in enumerate(courses2, start=2):
     print(ind, course)
+
+print('---\nMutable\n---')
+# lists are multable. i.e, change original list and the
+# changes will be cascaded to the copied lists
+list_1 = ['a', 'b', 'c', 'd']
+list_2 = list_1
+
+print(list_1)
+print(list_2)
+
+list_1[1] = 'x'
+
+print(list_1)
+print(list_2)
