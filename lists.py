@@ -1,5 +1,5 @@
 courses = ['a', 'b', 'c', 'd']
-courses2 = ['x', 'y', 'z']
+courses2 = ['a', 'x', 'y', 'z']
 
 # prints from 1st index to last but one-th
 print(courses[1:-1])

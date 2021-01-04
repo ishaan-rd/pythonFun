@@ -1,4 +1,4 @@
-# tuples are not mutable
+# tuples are immutable
 tuple_1 = ('a', 'b', 'c', 'd')
 tuple_2 = tuple_1
 
